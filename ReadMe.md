@@ -1,19 +1,20 @@
-##Description
+## Description
 This Repo contains PowerShell and Desired State Configuration examples used in the following presentations at the PowerShell Summit Europe 2015 in Stockholm Sweden:
 
-##Session (YouTube Videos)
+## Session (YouTube Videos)
 - [Enabling DevOPs using PowerShell 5.0](https://www.youtube.com/watch?v=90zjUk0pJ1w)
 - [What's Up with DSC Pull Server](https://www.youtube.com/watch?v=y3-_XBQTpS8)
 - [What's new in DSC](https://www.youtube.com/watch?v=0Jc4qNZabU8)
 
-##Repo Contents
+## Repo Contents
 The contents for each session are stored in an individual folder ... for the most part. Since we did not have time to finish some of the content in some sessions, we covered the content in a later session.
 
 - \Debugging\\* contains content from the _Enabling DevOps using PowerShell 5.0_ session. Also covered in _What's New in DSC_ session.
 - \DevOps\\* contains content from _Enabling DevOps using PowerShell 5.0_ session.
 - \PullServer\\* contains content from _What's Up with DSC Pull Server_ session.
 
-###File Details
+### File Details
+```
 | Path           |  File Name   | Description          |
 | ------------- | ------------ | -------------------- |
 | Assets        | site.zip     | Pull Server ASP.Net WebApp content.|
@@ -37,6 +38,6 @@ The contents for each session are stored in an individual folder ... for the mos
 | PullServer\Assets | * | Contains Pull Server ASP.Net WebApp content. |
 | PullServer\Modules | * | Modules required for configurations. Copy these to your modules directory in order to execute scripts. |
 | PullServer\V1 | * | Sample configurations and scripts demonstarting target node configuration and resulting mofs for pull server version 1. |
-
-##Also see
+```
+## Also see
 [DSC Pull Server UI](https://github.com/grayzu/DSCPullServerUI) repo for the sample application source code.
